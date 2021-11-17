@@ -1,0 +1,1 @@
+<view class="content"><image style="object-fit:cover;" src="{{url}}" alt class="_img"></image></view>
