@@ -7,18 +7,18 @@
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {
-        "usingComponents" : true,
-        "nvueStyleCompiler" : "李先森的小猪猪",
-        "splashscreen" : {
-            "alwaysShowBeforeRender" : true,
-            "waiting" : true,
-            "autoclose" : true,
-            "delay" : 0
+        "usingComponents": true,
+        "nvueStyleCompiler": "uni-app",
+        "splashscreen": {
+            "alwaysShowBeforeRender": true,
+            "waiting": true,
+            "autoclose": true,
+            "delay": 0
         },
         /* 模块配置 */
-        "modules" : {},
+        "modules": {},
         /* 应用发布信息 */
-        "distribute" : {
+        "distribute": {
             /* android打包配置 */
             "android" : {
                 "permissions" : [
@@ -49,11 +49,15 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
-        "setting" : {
-            "urlCheck" : false
+        "appid": "wxab460098de328994",
+        "setting": {
+            "urlCheck": false,
+            // 新增加的两个配置
+            "postcss": true,
+            "minified": true
         },
-        "usingComponents" : true
+        //        "darkmode": true,
+        "usingComponents": true
     },
     "mp-alipay" : {
         "usingComponents" : true
