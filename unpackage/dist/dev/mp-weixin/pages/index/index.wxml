@@ -1,1 +1,1 @@
-<view class="content"><image style="object-fit:cover;" src="{{url}}" alt class="_img"></image></view>
+<view class="content"><image style="object-fit:cover;width:50px;height:50px;" src="{{url}}" alt class="_img"></image><button open-type="getUserInfo" lang="zh_CN" data-event-opts="{{[['tap',[['wxLogin',['$event']]]]]}}" bindtap="__e">{{title}}</button><button data-event-opts="{{[['tap',[['aaa',['$event']]]]]}}" bindtap="__e">{{title}}</button></view>
